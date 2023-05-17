@@ -1,5 +1,6 @@
 export default defineNuxtConfig({
   modules: [
+    '@nuxt/devtools',
     '@pinia/nuxt',
     '@vueuse/nuxt',
     '@unocss/nuxt',
