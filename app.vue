@@ -4,7 +4,8 @@ const { x, y } = useMouse()
 </script>
 
 <template>
-  <div>
+  <div bg="white">
+    <i block class="i-ri-github-fill" />
     <div @click="countStore.increment">
       count: {{ countStore.count }}, doubleCount: {{ countStore.doubleCount }}
     </div>

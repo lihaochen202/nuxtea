@@ -10,8 +10,11 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.38.6",
+    "@iconify-json/ri": "^1.1.8",
     "@pinia/nuxt": "^0.4.10",
     "@types/node": "^18",
+    "@unocss/eslint-config": "^0.51.13",
+    "@unocss/nuxt": "^0.51.13",
     "@vueuse/core": "^10.1.2",
     "@vueuse/nuxt": "^10.1.2",
     "eslint": "^8.40.0",
