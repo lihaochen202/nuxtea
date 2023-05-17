@@ -1,4 +1,3 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   modules: [
     '@pinia/nuxt',
@@ -6,14 +5,23 @@ export default defineNuxtConfig({
     '@unocss/nuxt',
   ],
 
-  css: [
-    '@unocss/reset/tailwind.css',
-  ],
-
   pinia: {
     autoImports: [
       ['defineStore', 'definePiniaStore'],
       ['acceptHMRUpdate', 'acceptPiniaHMRUpdate'],
     ],
+  },
+
+  css: [
+    '@unocss/reset/tailwind.css',
+  ],
+
+  vite: {
+    vue: {
+      script: {
+        defineModel: true,
+        propsDestructure: true,
+      },
+    },
   },
 })

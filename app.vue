@@ -6,6 +6,7 @@ const { x, y } = useMouse()
 <template>
   <div bg="white">
     <i block class="i-ri-github-fill" />
+    <CountPanel :count="countStore.count" />
     <div @click="countStore.increment">
       count: {{ countStore.count }}, doubleCount: {{ countStore.doubleCount }}
     </div>
