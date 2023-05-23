@@ -1,3 +1,5 @@
+import { isDevelopment } from 'std-env'
+
 export default defineNuxtConfig({
   modules: [
     '@nuxt/devtools',
@@ -16,6 +18,8 @@ export default defineNuxtConfig({
   css: [
     '@unocss/reset/tailwind.css',
   ],
+
+  sourcemap: isDevelopment,
 
   vite: {
     vue: {
