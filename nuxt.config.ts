@@ -2,7 +2,6 @@ import { isDevelopment } from 'std-env'
 
 export default defineNuxtConfig({
   modules: [
-    '@nuxt/devtools',
     '@pinia/nuxt',
     '@vueuse/nuxt',
     '@unocss/nuxt',
@@ -19,6 +18,9 @@ export default defineNuxtConfig({
     '@unocss/reset/tailwind.css',
   ],
 
+  devtools: {
+    enabled: true,
+  },
   sourcemap: isDevelopment,
 
   vite: {
