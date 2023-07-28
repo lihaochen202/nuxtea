@@ -21,8 +21,8 @@ devDependencies:
     specifier: ^18.16.19
     version: 18.16.19
   '@unocss/eslint-config':
-    specifier: ^0.53.4
-    version: 0.53.4(eslint@8.44.0)(typescript@5.1.6)
+    specifier: ^0.54.0
+    version: 0.54.0(eslint@8.44.0)(typescript@5.1.6)
   '@unocss/nuxt':
     specifier: ^0.53.4
     version: 0.53.4(postcss@8.4.24)(vite@4.3.9)(webpack@5.88.1)
@@ -1065,7 +1065,7 @@ packages:
       nopt: 5.0.0
       npmlog: 5.0.1
       rimraf: 3.0.2
-      semver: 7.5.3
+      semver: 7.5.4
       tar: 6.1.15
     transitivePeerDependencies:
       - encoding
@@ -1268,7 +1268,7 @@ packages:
       pathe: 1.1.1
       pkg-types: 1.0.3
       scule: 1.0.0
-      semver: 7.5.3
+      semver: 7.5.4
       unctx: 2.3.1
       unimport: 3.0.12(rollup@3.26.0)
       untyped: 1.3.2
@@ -1930,28 +1930,40 @@ packages:
       unconfig: 0.3.9
     dev: true
 
+  /@unocss/config@0.54.0:
+    resolution: {integrity: sha512-FT0zOJCR2qr5P08msNovsJ4Qx+P4rXoYlK2zt/hgLKiFRIUKxnwSBDvapqmW6vo3vzOsdmBBO0YKpaZJ877F8A==}
+    engines: {node: '>=14'}
+    dependencies:
+      '@unocss/core': 0.54.0
+      unconfig: 0.3.9
+    dev: true
+
   /@unocss/core@0.53.4:
     resolution: {integrity: sha512-JvmpuFOiJ8NkGzRmh0dCUmNdYjr8MmMtCX+czCmSnX2kvKyQjJIw3RIu84/DQbd/M/yxZmPjle8DrcZ1Ql86rQ==}
     dev: true
 
-  /@unocss/eslint-config@0.53.4(eslint@8.44.0)(typescript@5.1.6):
-    resolution: {integrity: sha512-xn8KiAaCsBUPa4wS7/l6GEhKn/xaNlG7a4Pl5Fex0htScybZIr+DOUIwEzckStGgge3SZwX5Xt+UeD4/RgKTyw==}
+  /@unocss/core@0.54.0:
+    resolution: {integrity: sha512-iHfJJ8U+pVhMrbVpzMb0GImZUJu3Xmp165Q5Qr44hGOEzcMdvdBxbMSSl2VBKjRsEuNudNVhh7XJAyUcKxnSWg==}
+    dev: true
+
+  /@unocss/eslint-config@0.54.0(eslint@8.44.0)(typescript@5.1.6):
+    resolution: {integrity: sha512-4z7F9ytVU87qPOKsdjz1oQpPJuGuw62VumRUK0bWL3kU6rS1w6pZ6bO9u1Y97ojvKgZdHAtM9QvNp2XQF8H9EQ==}
     engines: {node: '>=14'}
     dependencies:
-      '@unocss/eslint-plugin': 0.53.4(eslint@8.44.0)(typescript@5.1.6)
+      '@unocss/eslint-plugin': 0.54.0(eslint@8.44.0)(typescript@5.1.6)
     transitivePeerDependencies:
       - eslint
       - supports-color
       - typescript
     dev: true
 
-  /@unocss/eslint-plugin@0.53.4(eslint@8.44.0)(typescript@5.1.6):
-    resolution: {integrity: sha512-vrDJVt4Aqp3s79FzWv2aBkluuiagQ6V6DEDeCtCKVPvJgNS0yonSBq+v5pbV5HMa1DGZI0pM1gVayKA5ILDcrA==}
+  /@unocss/eslint-plugin@0.54.0(eslint@8.44.0)(typescript@5.1.6):
+    resolution: {integrity: sha512-LHysBeDjSDTd5ARqkAtisp4xPR81LG45gk0Lx2emJ0rWcuwG/tKn1yEjYw3Tfyv+EJ8WApnHgrkx+RRRcoB/xw==}
     engines: {node: '>=14'}
     dependencies:
       '@typescript-eslint/utils': 5.61.0(eslint@8.44.0)(typescript@5.1.6)
-      '@unocss/config': 0.53.4
-      '@unocss/core': 0.53.4
+      '@unocss/config': 0.54.0
+      '@unocss/core': 0.54.0
       magic-string: 0.30.1
       synckit: 0.8.5
     transitivePeerDependencies:
@@ -2937,7 +2949,7 @@ packages:
   /builtins@5.0.1:
     resolution: {integrity: sha512-qwVpFEHNfhYJIzNRBvd2C1kyo6jz3ZSMPyyuR47OPdiKWlbYnZNyDWuyR175qDnAJLiCo5fBBqPb3RiXgWlkOQ==}
     dependencies:
-      semver: 7.5.3
+      semver: 7.5.4
     dev: true
 
   /bundle-name@3.0.0:
@@ -6227,7 +6239,7 @@ packages:
       rollup: 3.26.0
       rollup-plugin-visualizer: 5.9.2(rollup@3.26.0)
       scule: 1.0.0
-      semver: 7.5.3
+      semver: 7.5.4
       serve-placeholder: 2.0.1
       serve-static: 1.15.0
       source-map-support: 0.5.21
@@ -8715,7 +8727,7 @@ packages:
       lodash.debounce: 4.0.8
       lodash.pick: 4.4.0
       npm-run-path: 4.0.1
-      semver: 7.5.3
+      semver: 7.5.4
       strip-ansi: 6.0.1
       tiny-invariant: 1.3.1
       typescript: 5.1.6
@@ -8807,7 +8819,7 @@ packages:
     engines: {vscode: ^1.52.0}
     dependencies:
       minimatch: 3.1.2
-      semver: 7.5.3
+      semver: 7.5.4
       vscode-languageserver-protocol: 3.16.0
     dev: true
 
@@ -8875,7 +8887,7 @@ packages:
       espree: 9.6.0
       esquery: 1.5.0
       lodash: 4.17.21
-      semver: 7.5.3
+      semver: 7.5.4
     transitivePeerDependencies:
       - supports-color
     dev: true
