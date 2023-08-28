@@ -11,21 +11,21 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.40.0",
-    "@iconify-json/ri": "^1.1.10",
-    "@nuxt/devtools": "^0.7.0",
+    "@antfu/eslint-config": "^0.40.3",
+    "@iconify-json/ri": "^1.1.12",
+    "@nuxt/devtools": "^0.7.6",
     "@pinia/nuxt": "^0.4.11",
-    "@types/node": "^18.16.19",
-    "@unocss/eslint-config": "^0.54.0",
-    "@unocss/nuxt": "^0.54.0",
-    "@vueuse/core": "^10.2.1",
-    "@vueuse/nuxt": "^10.2.1",
-    "eslint": "^8.44.0",
-    "lint-staged": "^13.2.3",
-    "nuxt": "^3.6.5",
-    "pinia": "^2.1.4",
-    "simple-git-hooks": "^2.8.1",
-    "std-env": "^3.3.3"
+    "@types/node": "^18.17.12",
+    "@unocss/eslint-config": "^0.54.3",
+    "@unocss/nuxt": "^0.54.3",
+    "@vueuse/core": "^10.4.0",
+    "@vueuse/nuxt": "^10.4.0",
+    "eslint": "^8.48.0",
+    "lint-staged": "^13.3.0",
+    "nuxt": "^3.7.0",
+    "pinia": "^2.1.6",
+    "simple-git-hooks": "^2.9.0",
+    "std-env": "^3.4.3"
   },
   "simple-git-hooks": {
     "pre-commit": [
