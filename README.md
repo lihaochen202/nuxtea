@@ -1,8 +1,5 @@
 <p align="center">
-  <a href="https://nuxt.com" target="_blank">
-    <img src="https://cdn.jsdelivr.net/gh/lihaochen202/static/logo/nuxt.svg" alt="Nuxt" />
-  </a>
-  <span style="margin-left: 0.2em; font-size: 2.5em">Nuxtea</span>
+  <img src="https://cdn.jsdelivr.net/gh/lihaochen202/static/logo/nuxtea.svg" alt="Nuxtea" />
 </p>
 
 <p align="center">An approximately sufficient Nuxt project initiation template</p>
