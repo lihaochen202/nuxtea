@@ -1,3 +1,9 @@
+<script setup lang="ts">
+useHead({
+  title: 'Welcome to Nuxtea!',
+})
+</script>
+
 <template>
   <div
     class="min-h-screen"
