@@ -1,6 +1,11 @@
 <script setup lang="ts">
+const { t, locale } = useI18n()
+
+const title = ref('')
+watch(locale, () => title.value = t('welcome'), { immediate: true })
+
 useHead({
-  title: 'Welcome to Nuxtea!',
+  title,
 })
 </script>
 
@@ -24,7 +29,7 @@ useHead({
           <div text="13" class="i-logos-nuxt-icon" />
         </a>
         <h1 font="semibold" text="4xl sm:5xl">
-          Welcome to Nuxtea!
+          {{ t('welcome') }}
         </h1>
       </div>
       <div grid="~ cols-10 gap-6">

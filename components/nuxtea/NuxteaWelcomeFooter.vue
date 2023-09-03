@@ -5,6 +5,18 @@ const links = [
   { name: 'github', icon: 'i-logos-github-icon?mask' },
 ]
 const resolveLink = (name: string) => `https://${name}.nuxt.dev`
+
+const { locale } = useI18n()
+const localeIcon = computed(() => {
+  const iconMap: Record<string, string> = {
+    en: 'i-icon-park-solid-chinese-one',
+    zhCN: 'i-icon-park-solid-english',
+  }
+  return iconMap[locale.value] ?? ''
+})
+function toggleLocale() {
+  locale.value = locale.value === 'en' ? 'zhCN' : 'en'
+}
 </script>
 
 <template>
@@ -40,6 +52,15 @@ const resolveLink = (name: string) => `https://${name}.nuxt.dev`
             :class="link.icon"
           />
         </a>
+      </li>
+      <li>
+        <i
+          class="block hover:cursor-pointer"
+          text="hover:black dark:hover:white"
+          transtion="color-300"
+          :class="localeIcon"
+          @click="toggleLocale"
+        />
       </li>
     </ul>
   </footer>

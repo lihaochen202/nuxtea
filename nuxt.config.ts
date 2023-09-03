@@ -5,6 +5,7 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@vueuse/nuxt',
     '@unocss/nuxt',
+    '@nuxtjs/i18n',
   ],
 
   pinia: {
