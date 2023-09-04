@@ -14,6 +14,8 @@
 
 - [Pinia](https://pinia.vuejs.org/) - state management
 
+- [I18n](https://v8.i18n.nuxtjs.org/) - support internationalization
+
 - [ESLint](https://eslint.org/) - use [@antfu/eslint-config](https://github.com/antfu/eslint-config), graceful
 
 - TypeScript
