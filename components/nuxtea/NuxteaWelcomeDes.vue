@@ -15,12 +15,12 @@ const isRenderIcon = computed(() => props.icon || props.iconHover || props.darkI
   <div flex="~ items-center gap-4" class="welcome-des">
     <div v-if="isRenderIcon" flex="shrink-0">
       <div class="icon">
-        <img display="dark:none" :src="icon" alt="icon">
-        <img display="none dark:block" :src="darkIcon" alt="icon">
+        <img class="dark:hidden" :src="icon" alt="icon">
+        <img class="hidden dark:block" :src="darkIcon" alt="icon">
       </div>
       <div class="icon-hover hidden">
-        <img display="dark:none" :src="iconHover" alt="icon">
-        <img display="none dark:block" :src="darkIconHover" alt="icon">
+        <img class="dark:hidden" :src="iconHover" alt="icon">
+        <img class="hidden dark:block" :src="darkIconHover" alt="icon">
       </div>
     </div>
     <div flex="1">

@@ -41,8 +41,8 @@ useHead({
           border="1 gradient-white dark:gradient-zinc-900 rounded-xl"
         >
           <div class="absolute left-1/2 -top-58px" un--translate="x-1/2">
-            <img display="dark:none" src="/nuxtea/get-started-light.svg">
-            <img display="none dark:block" src="/nuxtea/get-started.svg">
+            <img class="dark:hidden" src="/nuxtea/get-started-light.svg">
+            <img class="hidden dark:block" src="/nuxtea/get-started.svg">
           </div>
           <h2 text="2xl" font="semibold">
             Get started
@@ -91,12 +91,12 @@ useHead({
                 description="We highly recommend you take a look at the Nuxt documentation to level up."
               />
               <div flex="shrink-0" class="icon">
-                <img h="32 sm:34" display="dark:none" src="/nuxtea/documentation-light.svg" alt="icon">
-                <img h="32 sm:34" display="none dark:block" src="/nuxtea/documentation.svg" alt="icon">
+                <img h="32 sm:34" class="dark:hidden" src="/nuxtea/documentation-light.svg" alt="icon">
+                <img h="32 sm:34" class="hidden dark:block" src="/nuxtea/documentation.svg" alt="icon">
               </div>
               <div flex="shrink-0" class="icon-hover hidden">
-                <img h="32 sm:34" display="dark:none" src="/nuxtea/documentation-color-light.svg" alt="icon">
-                <img h="32 sm:34" display="none dark:block" src="/nuxtea/documentation-color.svg" alt="icon">
+                <img h="32 sm:34" class="dark:hidden" src="/nuxtea/documentation-color-light.svg" alt="icon">
+                <img h="32 sm:34" class="hidden dark:block" src="/nuxtea/documentation-color.svg" alt="icon">
               </div>
             </div>
           </a>
