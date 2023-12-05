@@ -8,13 +8,6 @@ export default defineNuxtConfig({
     '@nuxtjs/i18n',
   ],
 
-  pinia: {
-    autoImports: [
-      ['defineStore', 'definePiniaStore'],
-      ['acceptHMRUpdate', 'acceptPiniaHMRUpdate'],
-    ],
-  },
-
   css: [
     '@unocss/reset/tailwind.css',
   ],
