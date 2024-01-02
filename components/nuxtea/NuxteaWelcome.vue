@@ -80,7 +80,7 @@ useHead({
           bg="white dark:zinc-900"
           border="~ gray-200 hover:transparent dark:transparent rounded-xl"
         >
-          <a href="http://nuxt.com.docs" target="_blank" rel="noopener noreferrer">
+          <a href="https://nuxt.com/docs" target="_blank" rel="noopener noreferrer">
             <div
               class="welcome-doc"
               flex="~ col sm:row lg:col items-center justify-center gap-y-2"
