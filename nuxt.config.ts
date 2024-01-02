@@ -12,6 +12,10 @@ export default defineNuxtConfig({
     '@unocss/reset/tailwind.css',
   ],
 
+  devtools: {
+    enabled: true,
+  },
+
   sourcemap: isDevelopment,
 
   vite: {
