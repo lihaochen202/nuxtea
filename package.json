@@ -24,7 +24,7 @@
     "@vueuse/core": "^10.6.1",
     "@vueuse/nuxt": "^10.6.1",
     "eslint": "^8.55.0",
-    "lint-staged": "^14.0.1",
+    "lint-staged": "^15.0.0",
     "nuxt": "^3.9.0",
     "pinia": "^2.1.7",
     "simple-git-hooks": "^2.9.0",
