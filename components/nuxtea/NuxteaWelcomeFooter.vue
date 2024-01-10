@@ -22,14 +22,14 @@ function toggleLocale() {
 <template>
   <footer
     class="relative h-70px w-full"
-    flex="~ items-center justify-between"
+    flex="~ between-center"
     border="t gray-200 dark:gray-900"
     text="gray-700 dark:gray-300"
     p="x4 sm:x6 lg:x8"
   >
     <a
-      class="absolute left-1/2 top-0 w-70px text-center"
-      un--translate="x-1/2 y-1/2"
+      absolute="~ center-t"
+      class="w-70px text-center"
       bg="white dark:black"
       href="http://nuxt.com"
       target="_blank" rel="noopener noreferrer"

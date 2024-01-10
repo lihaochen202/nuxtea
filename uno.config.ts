@@ -9,12 +9,14 @@ import {
   transformerVariantGroup,
 } from 'unocss'
 import { parseColor } from '@unocss/preset-mini'
+import { presetKite } from '@lihaochen/unocss-preset'
 
 export default defineConfig({
   presets: [
     presetUno({
       dark: 'media',
     }),
+    presetKite(),
     presetAttributify(),
     presetTypography(),
     presetIcons({

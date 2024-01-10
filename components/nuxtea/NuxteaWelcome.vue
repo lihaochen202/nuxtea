@@ -40,7 +40,7 @@ useHead({
           p="x4 sm:x22 t58px b8"
           border="1 gradient-white dark:gradient-zinc-900 rounded-xl"
         >
-          <div class="absolute left-1/2 -top-58px" un--translate="x-1/2">
+          <div absolute="~ center-t">
             <img class="dark:hidden" src="/nuxtea/get-started-light.svg">
             <img class="hidden dark:block" src="/nuxtea/get-started.svg">
           </div>
