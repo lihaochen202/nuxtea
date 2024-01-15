@@ -18,8 +18,8 @@ devDependencies:
     specifier: ^1.1.15
     version: 1.1.18
   '@lihaochen/unocss-preset':
-    specifier: ^0.1.0
-    version: 0.1.0
+    specifier: ^0.2.0
+    version: 0.2.0
   '@nuxt/devtools':
     specifier: ^1.0.4
     version: 1.0.6(nuxt@3.9.0)(rollup@3.29.4)(vite@5.0.10)
@@ -1074,16 +1074,16 @@ packages:
     resolution: {integrity: sha512-GaHYm+c0O9MjZRu0ongGBRbinu8gVAMd2UZjji6jVmqKtZluZnptXGWhz1E8j8D2HJ3f/yMxKAUC0b+57wncIw==}
     dev: true
 
-  /@lihaochen/unocss-preset-rem-to-vw@0.1.0:
-    resolution: {integrity: sha512-aFmoyTk7YfzuCzvTT0vSLowAazUYo3NDUM6mCFldrCumXORcLUyLkBj3Poxg1eD6JVtE0kERpSOrx8fvkbtuXQ==}
+  /@lihaochen/unocss-preset-rem-to-vw@0.2.0:
+    resolution: {integrity: sha512-wh/n8roUsOPnF86+WIuJtKSugksdMicfzvzz1gVNsUj8nd+IwZSArctghqSkk2zoUodSFp9268S32/NTb56hZA==}
     dependencies:
       '@unocss/core': 0.58.3
     dev: true
 
-  /@lihaochen/unocss-preset@0.1.0:
-    resolution: {integrity: sha512-ERLD6r+7MHnfHpL7PtSnjNNDazq1nEG7SyVvuj6VlfvIcafnHHtoaH07crE5nKn2CromDQD8saf5Ou9goU70VA==}
+  /@lihaochen/unocss-preset@0.2.0:
+    resolution: {integrity: sha512-0ngw7FoSbR5dLWSYk4G2oMa+MvfC6+PBkUpGC9Ek8P8dlfEYGT/xc78qRuclmZQN7JTDdXAhSGTGMxQpb/ZNIw==}
     dependencies:
-      '@lihaochen/unocss-preset-rem-to-vw': 0.1.0
+      '@lihaochen/unocss-preset-rem-to-vw': 0.2.0
       '@unocss/core': 0.58.3
       '@unocss/preset-mini': 0.58.3
     dev: true
