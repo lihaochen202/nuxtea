@@ -32,5 +32,7 @@
     "json",
     "jsonc",
     "yaml"
-  ]
+  ],
+
+  "css.customData": [".vscode/unocss.json"]
 }
