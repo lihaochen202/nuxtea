@@ -21,7 +21,7 @@
     "@nuxtjs/i18n": "8.1.1",
     "@pinia/nuxt": "^0.5.1",
     "@types/node": "^20.11.27",
-    "@unocss/nuxt": "^0.58.5",
+    "@unocss/nuxt": "^0.60.0",
     "@vueuse/core": "^10.9.0",
     "@vueuse/nuxt": "^10.9.0",
     "eslint": "^8.57.0",
